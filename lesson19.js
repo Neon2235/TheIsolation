@@ -5,10 +5,13 @@ background(200);
 };
 
 var draw=function(){
-for (let outerIndex = 0; outerIndex < 100; outerIndex++) {
-    for (let index = 0; index < 100; index++) {
-        fill(random(20), random(80), random(60))
+for (let outerIndex = 0; outerIndex < 10; outerIndex++) {
+    for (let index = 0; index < 10; index++) {
+        fill(random(255), random(255), random(255))
 rect(index*140, outerIndex*140, 200)};
     }
 
 }
+
+
+
